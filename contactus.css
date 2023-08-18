@@ -1,0 +1,233 @@
+@charset "ISO-8859-1";
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: 'Poppins',sans-serif;  
+   }
+.contact
+{
+	position:relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	background:linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%),url(home4.jpg);
+	background-size:cover;
+}
+.contact .content
+{
+	max-width:800px;
+	text-align:center;
+	
+}
+.contact .content h2
+{
+	font-size:36px;
+	font-family: sans-serif;
+	font-weight:500;
+	color: #FF6F00;
+	margin-top:-100px;
+	
+}
+.contact .content p
+{
+	font-weight:300;
+	color: #fff;
+}
+.container
+{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin-top:30px;
+}
+.container .contactinfo
+{
+    width: 50%;
+	display:flex;
+	flex-direction:column;	
+}
+.container .contactinfo .box
+{ 
+	position:relative;
+	padding: 20px 0;
+	display: flex;
+	right:130px;
+}
+.container .contactinfo .box .icon
+{ 
+	width:60px;
+    height: 60px;
+    background: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    font-size: 22px;
+ } 
+.container .contactinfo .box .text
+{ 
+	 display: flex;
+	 margin-left:20px;
+	 font-size: 16px;
+	 color: #fff;
+	 flex-direction:column;
+	 font-weight:300;
+}
+.container .contactinfo .box .text h3
+{
+	font-weight: 500;
+	color:#FF6F00;
+}
+.contactfrom
+{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
+    position: absolute;
+    top: 200px;
+    right: 250px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top:-50px;
+}
+.contactfrom h2
+{
+	font-size: 30px;
+	color:#ff8040;
+	font-weight:500;
+	 width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 8px;
+	
+}
+.contactfrom .inputbox
+{
+	position:relative;
+    width: 100%;
+	margin-top:10px;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.contactfrom .inputbox select
+{  width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.contactfrom .inputbox option
+{
+	color:black;
+}
+.contactfrom .inputbox input,
+.contactfrom .inputbox textarea
+{ width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.contactfrom .inputbox span
+{
+     width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contactfrom .inputbox .input:focus~span,
+.contactfrom .inputbox .input:focus~span,
+.contactfrom .inputbox .textarea:focus~span,
+.contactfrom .inputbox .textarea:valid~span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+.contactfrom .inputbox input[type="submit"]
+{
+	 width: 100px;
+	  background: #00bcd4;
+	  color: #fff;
+	  border: none;
+	  cursor: pointer;
+	  padding:18px; 	
+}
+@media (max-width: 991px)
+{
+	.contact
+	{
+	  padding: 50px;
+     }
+     .container
+     {
+       flex-direction: column;
+     }
+     .container .contactinfo
+     {
+       margin-bottom: 40px;
+     }
+      .container .contactinfo,
+      .contactform
+      {
+       width:100%;
+       }
+    }
+    
+.btn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg, #ff9900, #ffffff, #006600);
+    color: #0000ff;
+}
+  
+    
+.box h3
+{
+	font-color:#ff8000;
+}

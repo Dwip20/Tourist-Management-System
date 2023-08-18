@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+		.table
+		{
+		  max-width: 1000px;
+		  position: relative;
+		  margin-top:-500px;
+		  align-items:center;
+		  justify-content: center;
+		  left:250px;
+		}
+	
