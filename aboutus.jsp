@@ -14,7 +14,7 @@
   <p>Contact with us at any time to know more information</p>
 </div>
 
-<h2 style="text-align:center; font-size: 25px; color: white">Our Team</h2>
+
 <div class="row">
   <div class="column">
     <div class="card">
