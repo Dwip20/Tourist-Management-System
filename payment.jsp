@@ -9,7 +9,6 @@
 </head>
 <body>
 	<h1>SCAN QR CODE</h1>
-				
 	<div class="card">
       <img src="MyQR.png">
         <h2>Google Pay</h2>
