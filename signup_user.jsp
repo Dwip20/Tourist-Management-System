@@ -10,8 +10,7 @@
 <body>
 
 <div class="form">
-	
-	<form action="touristinfo.jsp" method="post">
+		<form action="touristinfo.jsp" method="post">
 		<h2>SignUp Here</h2>
           <input type="text" name="name" placeholder="Enter Name Here"><br>
           <input type="date" name="dob" placeholder="Enter DOB Here"><br>
