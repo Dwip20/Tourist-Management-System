@@ -40,8 +40,7 @@
     		text-decoration: none;
     		font-weight: bold;
     		transition: 0.2s ease-in-out;
-    		
-    	}
+        	}
 	a:hover{
     		color: #3498DB;
     		}
